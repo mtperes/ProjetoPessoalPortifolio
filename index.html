@@ -22,7 +22,7 @@
 
 <!-- inicio do nav -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -50,8 +50,10 @@
         <div class="container-fluid">
             <div class="row">
               <canvas id="canvas"></canvas>
-                <div class="col-md-8 text-left">
-                    <h1 id="efect" class="hello">Hello,<br>I'm Eugênio.<br> Welcome</h1>
+                <div class="col-md-8 text-left"> <!-- Efeito com o greensocks -->
+                    <h1 id="efectUm" class="hello">Hello,</h1>
+                    <h1 id="efectDois" class="hello">I'm Eugênio.</h1>
+                    <h1 id="efectTres" class="hello">Welcome</h1>
                 </div>
             </div>
         </div>
@@ -65,20 +67,26 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-5 about">
           <h1 class="apresentacaoEnfa">About</h1>
-          <p class="apresentacao"> I am an eternal student of web programming,because of  being love about this technology.
-           I am specializing in web and Mobile development, with base in JavaScript and ours frameworks, I have bachelor in Software Engineering in Brazil,And by not considering myself ready for the job market, come to Lison for change this, but, the university give me a good base of concepts like Scrum, Kanbam, case study among others Items, I'm currently living in Lisbon, and studying web &amp;mobile programming in the Flag institute, You can see my focus study along to text.
-            In addition I have always worked as Design and personal relationships in large companies, what I'm sure will be of value to the company. 
-            So have great experience in teamwork, requirements engineering and focus with the project and goals.
-            I know how important this goal is for teams that work for agile tools for example.
-      </div>
+          <p class="apresentacao"> 
+          
+            Sou um apaixonado por programação que se dedica e se especializa em programação web &amp; Mobile, e serei um eterno estudante da area, sempre procurando me especializar e estar conectado com o mercado que me envolve, após estudar egenharia de software no Brasil, e com isso ter uma base muito boa em conceitos ageis como Scrum|kanbam e XP, e tambem estudo de caso e engenharia de requisitos. Vim para Lisboa para me especializar em programação.
+            Nessa pagina, coloco meus principais trabalhos, resume e curriculo Europeu para compartilhar com quem tiver interesse, todos os meus codigos fontes estão nos meus repositorios do gitHub e estão abertos para quem quiser ver e opnar.</p>
+            <h3>Cordialmente.</h3> 
+            <h3>Eugênio Duarte.</h3> 
+
+    </div>
       
-      <div class="col-lg-6 about ">
+      <div class="col-lg-6 about ">  <!-- diminuir os vãos entre linhas --> 
           <h1 class="apresentacaoEnfa">Skills</h1>  
-          <p class="apresentacao"><span>HTML | CSS | JavaScript</span></p>
-          <p class="apresentacao"><span>jQuery | Bootstrap | Sass | Less</span></p>
-          <p class="apresentacao"><span>Angular2 | Node.js | Mongodb</span></p>
-          <p class="apresentacao"><span>Kanban | Scrum | Git</span></p>
-          <p class="apresentacao"><span>Xamarin</span></p>
+          <h3>Desenvolvimento</h3>
+          <p>HTML | CSS | JavaScript</p>
+          <h3>Frameworks</h3>
+          <p>jQuery | Bootstrap | Sass | Less</p>
+          <p>Angular2 | Node.js | Mongodb</p>
+          <h3>Engenharia de software</h3>
+          <p>Kanban | Scrum </p>
+          <h3>Versionamento de controle</h3>
+          <p>Git | Github</p>
 
 <!-- botões sociais --> 
 
@@ -89,11 +97,11 @@
           </div>
       </div>
     </div>
-     <footer class="text-center">
+    <footer class="text-center">
       <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="PARA CIMA E AVANTE">
       <span class="glyphicon"><i class="fa fa-caret-square-o-up fa-2x" aria-hidden="true"></i></span>
       </a>
-      </footer>
+    </footer>
 </section> 
 
 <!-- portfolio -->
@@ -110,7 +118,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -125,7 +133,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -140,7 +148,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -155,7 +163,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -170,7 +178,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -185,7 +193,7 @@
                                   Category
                               </div>
                               <div class="project-name">
-                                  Project Name
+                                  Em breve
                               </div>
                           </div>
                       </div>
@@ -266,8 +274,9 @@
   <script type="text/javascript" src="js/efeito.js" ></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js">
   </script>
-                                               <!-- navbar e nav -->
+
   <script>
+  //navbar e nav
   $(document).ready(function(){
     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
       if (this.hash !== "") {
@@ -292,11 +301,15 @@
       });
     });//
   })
-
+//greensocks da intro
     window.onload = function() {
-      var efect = document.getElementById("efect");
-      TweenLite.from(efect, 2, {right:"1500px"});
-      TweenLite.to(efect, 2, {left:"0px"});
+      var efectUm = document.getElementById("efectUm");
+      TweenLite.from(efectUm, 1, {right:"500px", autoAlpha:0});
+      TweenLite.from(efectDois, 1, {right:"500px", delay:1});
+      TweenLite.from(efectTres, 1, {right:"500px", delay:2});
+      TweenLite.from(navbar, 2, {top:"-500px", delay:2});
+    
+    navbar
       
   }
 </script>
