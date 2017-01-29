@@ -107,7 +107,6 @@ p {
   }
   #efectUm, #efectDois, #efectTres{
     position: relative;
-    
   }
  
 /* -------------------------------------------------------apresentação*/
@@ -115,7 +114,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   padding-bottom: 20px;
-}
+  }
   #sobre{
     background-color:#222;
     padding-top: 10px;
@@ -126,7 +125,7 @@ p {
   .about{
       padding-top: 50px;
       padding-bottom: 10px;
-    }
+  }
 
   .socialBtn a{
     display: inline-block;
@@ -221,158 +220,158 @@ img{
   padding-left: 0;
 }
 
-  /* -------------------------------------------------------map /contacto*/
- .container {
+/* -------------------------------------------------------map /contacto*/
+.container {
       padding-top: 150px;
       padding-bottom: 50px;
-  }
+}
   
- .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail p {
-      margin-top: 15px;
-      color: #555;
-  }
-  .btn {
-      padding: 10px 20px;
-      background-color: #222;
-      border-color: #ecf0f1;
-      color: #ecf0f1;
-      border-radius: 0;
-      transition: .2s;
-  }
-  .btn:hover, .btn:focus {
-      border: 1px solid #333;
-      background-color: #e67e22;
-      color: #000;
-  }
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #222;
+    border-color: #ecf0f1;
+    color: #ecf0f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #e67e22;
+    color: #000;
+}
 
-  .nav-tabs li a {
-      color: #777;
-  }
-  #googleMap {
-      width: 100%;
-      height: 400px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-  } 
-  /* -------------------------------------------------------efeito*/
-  #canvas{
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  padding-bottom: 50px;
-  }
-  /* -------------------------------------------------------footer*/
- footer {
-      color: #ecf0f1;
-      padding: 32px;
-  }
-  footer a {
-      color: #ecf0f1;
-      width: 50px;
-  }
-  footer a:hover {
-      color: #e67e22;
-      text-decoration: none;
-  }  
-  .form-control {
-      border-radius: 0;
-  }
-  textarea {
-      resize: none;
-  }
+.nav-tabs li a {
+    color: #777;
+}
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+} 
+/* -------------------------------------------------------efeito*/
+#canvas{
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+z-index: -1;
+padding-bottom: 50px;
+}
+/* -------------------------------------------------------footer*/
+footer {
+    color: #ecf0f1;
+    padding: 32px;
+}
+footer a {
+    color: #ecf0f1;
+    width: 50px;
+}
+footer a:hover {
+    color: #e67e22;
+    text-decoration: none;
+}  
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
 
 
 
 /* -------------------------------------------------Pag. do resume*/   
 /* ------------------------------------------------- cabeçalho*/
 .dados {
-    background-color: rgba(22, 160, 133,1.0);
-    width: 585px;
-    height: 200px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
+  background-color: rgba(22, 160, 133,1.0);
+  width: 585px;
+  height: 200px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 .btn-success{
-  background-color: #16a085;
-  margin-top: 20px;
-  margin-right: 20px;
-  border: solid 2px rgba(236, 240, 241,1.0);
-  color: rgba(236, 240, 241,1.0);
-  width: 150px;
-  height: 50px;
+background-color: #16a085;
+margin-top: 20px;
+margin-right: 20px;
+border: solid 2px rgba(236, 240, 241,1.0);
+color: rgba(236, 240, 241,1.0);
+width: 150px;
+height: 50px;
 }
 .btn-success:hover{
-  background-color: rgba(236, 240, 241,1.0);
-  border: solid 2px rgba(236, 240, 241,1.0);
-  color: #16a085;
+background-color: rgba(236, 240, 241,1.0);
+border: solid 2px rgba(236, 240, 241,1.0);
+color: #16a085;
 }
 /* -------------------------------------------------Pag. da formação*/
-  ul{
-    display: block;
-    list-style-type: none;
-    padding: 0;
-  }
-  .formação{
-    background-color: #BDBDBD;
-    color: black;
-    height: 1300px;
-  }
-  .formaçãoInterno{
-    padding-top: 155px;
-    padding-right: 5px;
-    padding-bottom: 50px;
-  }
-  .formaçãoInterno h4{
-    font-size: 20px;
-    padding-bottom: 0px;
-  }
-  .formação h2{
-    font-size: 25px;
-    padding-bottom: 0px;
-    text-decoration: underline;
-  }
+ul{
+  display: block;
+  list-style-type: none;
+  padding: 0;
+}
+.formação{
+  background-color: #BDBDBD;
+  color: black;
+}
+.formaçãoInterno{
+  padding-top: 155px;
+  padding-right: 5px;
+  padding-bottom: 42px;
+}
+.formaçãoInterno h4{
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+.formação h2{
+  font-size: 25px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+}
 /* -------------------------------------------------Pag. da experiencia*/
-  .empresa{
-    background-color: rgba(236, 240, 241,1.0);
-    height: 1300px;
-  }
-  .empresaInterna h1{
-    font-size: 80px;
-  }
-  .empresaInterna{
-    padding: 50px 200px 20px 20px;
-  }
-  .socialBtnResume{
-    margin: 0 auto;
-  }
-  .socialBtnResume a{
-    display: inline-block;
-    text-decoration: none;
-    color: #16a085;
-    padding: 20px 10px 50px 10px;
-  }
-  .socialBtnResume a:hover{
-    text-decoration: none;
-    color: #e67e22;
-  }
+.empresa{
+  background-color: rgba(236, 240, 241,1.0);
+  padding-bottom: 58px;
+}
+.empresaInterna h1{
+  font-size: 80px;
+}
+.empresaInterna{
+  padding: 50px 200px 20px 20px;
+}
+.socialBtnResume{
+  margin: 0 auto;
+}
+.socialBtnResume a{
+  display: inline-block;
+  text-decoration: none;
+  color: #16a085;
+  padding: 20px 10px 50px 10px;
+}
+.socialBtnResume a:hover{
+  text-decoration: none;
+  color: #e67e22;
+}
 
-  .exp li h4{
-    padding-top: 10px;
-  }
-  .exp a{
-    color: #16a085;
-    text-decoration: underline;
-  }
-  .icons i{
-    color: #black;
-  }
-  .green{ 
-    color: #16a085;
-  }
+.exp li h4{
+  padding-top: 10px;
+}
+.exp a{
+  color: #16a085;
+  text-decoration: underline;
+}
+
+.green{ 
+  color: #16a085;
+}
+.dados .fa{
+  color: black;
+}

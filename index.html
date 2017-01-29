@@ -1,3 +1,5 @@
+<!-- Primeiro projeto 29/01/2017 Lisboa Portugal -->
+<!-- Eugênio Duarte da Silva -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,21 +70,21 @@
     <div class="col-lg-5 about">
           <h1 class="apresentacaoEnfa">About</h1>
           <p class="apresentacao"> 
-          
-            Sou um apaixonado por programação que se dedica e se especializa em programação web &amp; Mobile, e serei um eterno estudante da area, sempre procurando me especializar e estar conectado com o mercado que me envolve, após estudar egenharia de software no Brasil, e com isso ter uma base muito boa em conceitos ageis como Scrum|kanbam e XP, e tambem estudo de caso e engenharia de requisitos. Vim para Lisboa para me especializar em programação.
-            Nessa pagina, coloco meus principais trabalhos, resume e curriculo Europeu para compartilhar com quem tiver interesse, todos os meus codigos fontes estão nos meus repositorios do gitHub e estão abertos para quem quiser ver e opnar.</p>
+            Sou um apaixonado por programação que se dedica e se especializa em programação web &amp; Mobile, e serei um eterno estudante da área, sempre procurando me especializar e estar conectado com o mercado que me envolve, após estudar engenharia de software no Brasil, e com isso ter uma base muito boa em conceitos ágeis como Scrum|kanbam e XP, e também estudo de caso e engenharia de requisitos. Vim para Lisboa para me especializar em programação.
+            Nessa pagina, coloco meus principais trabalhos, resume e currículo Europeu para compartilhar com quem tiver interesse, todos os meus códigos fontes estão nos meus repositórios do GitHub e estão abertos para quem quiser ver e opinar.
+          </p>
             <h3>Cordialmente.</h3> 
             <h3>Eugênio Duarte.</h3> 
 
     </div>
       
-      <div class="col-lg-6 about ">  <!-- diminuir os vãos entre linhas --> 
+      <div class="col-lg-6 about "> 
           <h1 class="apresentacaoEnfa">Skills</h1>  
-          <h3>Desenvolvimento</h3>
+          <h3>Desenvolvimento Front-end</h3>
           <p>HTML | CSS | JavaScript</p>
           <h3>Frameworks</h3>
           <p>jQuery | Bootstrap | Sass | Less</p>
-          <p>Angular2 | Node.js | Mongodb</p>
+          <p>React e Redux | Node.js | Mongodb</p>
           <h3>Engenharia de software</h3>
           <p>Kanban | Scrum </p>
           <h3>Versionamento de controle</h3>
@@ -236,7 +238,7 @@
 
 <div id="googleMap"></div>
 
-<!--Add Google Maps -->
+<!--Google Maps -->
 
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>//codigo maps
@@ -271,14 +273,15 @@
   </a><br><br>
 </footer>
 
+  
   <script type="text/javascript" src="js/efeito.js" ></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js">
   </script>
 
   <script>
   //navbar e nav
-  $(document).ready(function(){
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(document).ready(function(){ //cria uma função
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) { //evento animado para o scroll
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
@@ -290,7 +293,7 @@
       } 
     });
     
-    $(window).scroll(function() {
+    $(window).scroll(function() {//Gera o efeito do about subir 500 ao focar nele.
       $(".slideanim").each(function(){
         var pos = $(this).offset().top;
 
@@ -301,16 +304,13 @@
       });
     });//
   })
-//greensocks da intro
-    window.onload = function() {
+
+    window.onload = function() {//greensocks da intro
       var efectUm = document.getElementById("efectUm");
       TweenLite.from(efectUm, 1, {right:"500px", autoAlpha:0});
       TweenLite.from(efectDois, 1, {right:"500px", delay:1});
       TweenLite.from(efectTres, 1, {right:"500px", delay:2});
       TweenLite.from(navbar, 2, {top:"-500px", delay:2});
-    
-    navbar
-      
   }
 </script>
 </body>
