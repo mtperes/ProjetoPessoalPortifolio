@@ -7,7 +7,7 @@ window.onload = function() {
 
 (document).ready(function(){
 	$("span").click(function({
-		$("img").attr("src",I"img/alvo.png);-→ira altera o attr src da tag img para o alvo.
+		$("img").attr("src",I"img/alvo.png);-→ira altera o attr src da tag img para o alvo .
 	}))
 })
 $(":button").click(function(){
